@@ -46,7 +46,8 @@ file_details_df['date'] = pd.to_datetime(file_details_df['date'], format='%Y%m%d
 band_col_names =  ['Band','Description', 'CentralWavelength_um', 'Resolution_m']
 bands_df  = pd.DataFrame(columns = band_col_names)
 bands_df
-
+    
+#addding bands to the dataframe
 import csv
 band_l=[]
 description_l=[]
